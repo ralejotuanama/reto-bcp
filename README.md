@@ -10,7 +10,7 @@ También spring boot, spring security (jwt), spring data.
 Como base de datos he utilizado postgres.
 Hemos también utilizado maven, github.
 PASO 1:
-Para desplegar el aplicativo creamos la base de datos en postgress con el nombre bdutp y automáticamente con el jpa se crearán las tablas mapeadas en nuestros modelos del aplicativo.
+Para desplegar el aplicativo creamos la base de datos en postgress con el nombre bdbcp y automáticamente con el jpa se crearán las tablas mapeadas en nuestros modelos del aplicativo.
  
 Adicional a ello creamos 2 tablas que necesitaremos para el tema de los tokens de jwt.
 create table oauth_access_token (
